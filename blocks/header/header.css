@@ -136,6 +136,11 @@ header nav[aria-expanded=true] .nav-hamburger-icon::after {
   }
 }
 
+header .nav-brand a:first-of-type {
+  display: block;
+  width: 400px;
+}
+
 /* brand */
 header .nav-brand {
   grid-area: brand;
@@ -258,7 +263,7 @@ header nav .nav-sections ul > li > ul > li {
     width: 0;
     height: 0;
     border-left: 8px solid transparent;
-    border-right: 8px solid transparent;    
+    border-right: 8px solid transparent;
     border-bottom: 8px solid var(--highlight-background-color);
   }
 
